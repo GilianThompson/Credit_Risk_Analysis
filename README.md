@@ -1,6 +1,7 @@
 ## Overview 
 The purpose of this project was to use Python and SciKit-Learn to build and evaluate several machine learning models to predict credit risk with unbalanced classes. Using the credit card credit dataset from LendingClub, the data was oversampled using the RandomOverSampler and SMOTE algorithms, and undersampled using the ClusterCentroids algorithm. Then, a combinatorial approach of over- and undersampling using the SMOTEENN algorithm was used. Next, the two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, were compared to predict credit risk
 
+
 ## Results 
 
 The following list describes the balanced accuracy score and the precision and recall scores for the high risk case of all six machine learning models built in this project 
