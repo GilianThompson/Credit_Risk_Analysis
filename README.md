@@ -18,7 +18,7 @@ The balanced accuracy score is 0.65, precision 0.01, and recall 0.61
 The balanced accuracy score is 0.54, precision 0.01, and recall 0.69
 <img width="455" alt="Screen Shot 2021-11-13 at 4 54 35 PM" src="https://user-images.githubusercontent.com/85901073/141660097-c2bc7ec7-96db-47cf-a0db-1f74a1aec904.png">
 
-**SMOTEEN:**
+**SMOTEENN:**
 The balanced accuracy score is 0.64, precision 0.01, and recall 0.71
 <img width="457" alt="Screen Shot 2021-11-13 at 4 57 00 PM" src="https://user-images.githubusercontent.com/85901073/141660148-117c85af-edb2-4ebf-bcc3-5ff1fc80c8ca.png">
 
