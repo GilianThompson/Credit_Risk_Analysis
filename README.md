@@ -1,5 +1,5 @@
 ## Overview 
-The purpose of this project was to use Python and SciKit-Learn to build and evaluate several machine learning models to predict credit risk with unbalanced classes. Using the credit card credit dataset from LendingClub, the data was oversampled using the RandomOverSampler and SMOTE algorithms, and undersampled using the ClusterCentroids algorithm. Then, a combinatorial approach of over- and undersampling using the SMOTEENN algorithm was used. Next, the two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, were compared to predict credit risk. Finally, the performance of these models was evaluated to determine whether they should be used to predict credit risk.
+The purpose of this project was to use Python and SciKit-Learn to build and evaluate several machine learning models to predict credit risk with unbalanced classes. Using the credit card credit dataset from LendingClub, the data was oversampled using the RandomOverSampler and SMOTE algorithms, and undersampled using the ClusterCentroids algorithm. Then, a combinatorial approach of over- and undersampling using the SMOTEENN algorithm was used. Next, the two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, were compared to predict credit risk
 
 ## Results 
 
@@ -31,4 +31,4 @@ The balanced accuracy score is 0.87, precision 0.07, and recall 0.80
 
 
 ## Summary 
-
+Of all the models, the precision for the high risk cases was highest in the random forest classifier with a precision of 0.71 whereas all the other models were below 0.10. The accuracy score for five out of six models are around the same except for the easy ensemble classifier which has a balanced accuracy score of 0.87 and is the highest out of all the models. However, precision in this case is more significant evaluation metric to the problem being address (flagging high credit risk). The random forest classifier performed the best in this regard although the model would not be incredibl effective since it only catches approximately 71% of high risk cases. 
